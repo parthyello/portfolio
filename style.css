@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: block;
+    background-color: #191919;
+    width: 100%;
+    max-width: 1400px;
+    min-height: 100vh;
+    margin: auto;
+    position:absolute;
+}
+
+.tools{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    position: fixed;
+    background: #1a1a1a;
+    z-index: 9;
+    left:0;
+    top:0;
+}
+.link {
+    list-style: none;
+    display: flex;
+}
+.link-content a{
+    color:#fff;
+    transition: 0.2s;
+    opacity: 0.5;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 0px 20px;
+    line-height: 80px;
+    font-size: 20px;
+}
+.link-content :hover, #nav1{
+    opacity: 1; 
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    padding: 0 150px;
+    /* padding: 150px 100px 100px 150px; */
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    /* position:fixed; */
+    top: 0px;
+    /* opacity: 0;
+    transform: 1s; */
+}
+.me{
+    color: white;
+    font-size:140px;
+    font-style:italic;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-family: 'Great Vibes', cursive;
+}
+#hunter{
+    font-family: 'Lobster', cursive;
+}
+.parth{
+    position:absolute;
+    object-fit: cover;  
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 50%;
+    opacity: 0.2;
+}
+.hunter{
+    color:wheat;
+    text-transform: capitalize;
+    /* font-style: ; */
+    font-size: 40px;
+    text-align: center;
+    top:0;
+    /* padding: ; */
+}
+.about-section{
+    min-height: 100vh;
+    width: 100%;
+    padding: 150px 100px 100px;
+    top:0;
+    background-color: salmon;
+    border-radius: 10px;
+    /* background-color: grey; */
+}
+.about-heading,.contact-heading{
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 300px;
+    font-size:80px;
+}
+.about-heading{
+    font-family: 'Libre Baskerville', serif;
+    color:yellowgreen;
+}
+.about-myself{
+    color:whitesmoke;
+    /* top:200px; */
+    line-height: 100px;
+    font-size: 20px;
+}
+#my-img,#group-img{
+    width:200px;
+    margin-left:50%;
+    /* margin-right: 50%; */
+    display: block;
+}
+#sleep{
+    color: yellow;
+}
+.group-sing-img{
+    height:400px;
+    align-self: center;
+}
+#hobby, #achievements{
+    font-size: 50px;
+    color: purple;
+}
+#achievements1{
+    line-height: 55px;
+}
+.contact{
+    color: pink;
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    background-color: seagreen;
+    padding: 150px 100px 100px;
+
+}
+
+.contact-form{
+    background:white;
+    align-items:center;
+    width: 70%;
+    color: black;
+    padding: 10px;
+    margin: 40px;
+    border: 1px solid #ced4da;
+    display: block;
+}
+label{
+    display: block;
+    margin-bottom: 0.3rem;
+}
+.form{
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgb(0 0 0 / 50%);
+    font-size: 17px;
+    
+}
+.contact-form input, .contact-form select, .contact-form textarea {
+    border: 1px solid #777;
+    border-radius: 10px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+button {
+    background-color:slateblue;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#group-img{
+    width:500px;
+    align-items: center;
+    margin-left: 30%;
+}
+.contact-heading{
+    color: black;
+}
